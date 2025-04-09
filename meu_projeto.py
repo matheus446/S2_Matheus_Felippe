@@ -32,3 +32,8 @@ print(f"Sua altura é {altura_usuario} metros, você é considerado {categoria}.
 
 # Exibir uma mensagem adicional dependendo da classificação
 if categoria == "baixo":
+    print("Não se preocupe, cada pessoa tem seu próprio tempo de crescimento.")
+elif categoria == "alto":
+    print("Você tem uma altura acima da média.")
+else:
+    print("Você tem uma altura dentro da média.")
