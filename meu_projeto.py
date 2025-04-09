@@ -32,3 +32,8 @@ print(f"Sua altura é {altura_usuario} metros, você é considerado {categoria}.
 
 # Exibir uma mensagem adicional dependendo da classificação
 if categoria == "baixo":
+    print("sua cor favorita á azul")
+elif cor == "verde":
+    print("sua cor favorit é verde")
+else:
+    print("você tem 30 anos de idade")
